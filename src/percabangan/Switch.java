@@ -2,19 +2,19 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int jalanJalan=1;
-        switch(jalanJalan){
-            case 1:
-                System.out.println("Urang bungas");
+        char nilai='A';
+        switch(nilai){
+            case 'A':
+                System.out.println("MHS : \" Terimakasih pak\"");
+                System.out.println("DSN : \" Ahsiyapppp\"");
                 break;
-            case 2:
-                System.out.println("Urang Gagah");
+            case 'B':
+                System.out.println("MHS : \" Mantap bnr pian ni pa ay\"");
+                System.out.println("DSN : \" Yakheer ente\"");
                 break;
-            case 3:
-                System.out.println("Urang Cantik");
-                break;
-            case 4:
-                System.out.println("Kada bungas");
+            case 'C':
+                System.out.println("MHS : \" Jam berapa buliakn pa?\"");
+                System.out.println("DSN : \" Setumat lagi\"");
                 break;
             default:
                 System.out.println("mahluk halus");
